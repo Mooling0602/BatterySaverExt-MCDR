@@ -1,0 +1,2 @@
+bat_se:
+  on_load: "BatterySaverExt loaded successfully!"

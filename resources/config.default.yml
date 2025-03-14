@@ -1,0 +1,5 @@
+bat_se:
+  enabled: true
+  notify:
+    when_lower_than: 35
+    interval: 1

@@ -1,2 +1,2 @@
 # BatterySaverExt-MCDR
-DLC of BatterySaver, provide more features.
+Extension of BatterySaver, provide more features.

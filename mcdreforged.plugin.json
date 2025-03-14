@@ -1,0 +1,17 @@
+{
+	"id": "bat_se",
+	"version": "0.0.1",
+	"name": "BatterySaverExt",
+	"description": {
+		"en_us": "Extension of BatterySaver, add more features for it.",
+		"zh_cn": "BatterySaver的扩展，为其添加更多特性。"
+	},
+	"dependencies": {
+		"mcdreforged": ">=2.1.0",
+		"mutils": ">=0.0.4"
+	},
+	"author": "Mooling0602",
+    "link": "https://github.com/Mooling0602/BatterySaverExt-MCDR",
+	"entrypoint": "bat_se.entry",
+	"resources": ["lang", "resources"]
+}

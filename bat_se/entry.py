@@ -1,5 +1,6 @@
 import os
 import bat_se.cfg as cfg
+import bat_se.subscription as data
 
 from mcdreforged.api.all import *
 from mutils import tr, extract_file
@@ -28,3 +29,6 @@ def on_load(server: PluginServerInterface, prev_module):
     register_command(server)
     server.logger.info(tr(server, "on_load"))
 
+def on_player_left(server: PluginServerInterface, player: str):
+    if player in data.players:
+        data.players.remove(player)

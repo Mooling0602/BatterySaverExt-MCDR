@@ -1,2 +1,9 @@
 bat_se:
   on_load: "BatterySaverExt loaded successfully!"
+  low_battery_message: "Low Battery({percent}%)!"
+  battery_info: "Persent battery level: {percent}%, power supply status: {status}"
+  power_status:
+    charging: is charging
+    battery: not charging
+  command:
+    not_player: "This command just works for player(in client)."

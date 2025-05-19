@@ -1,2 +1,9 @@
 bat_se:
   on_load: BatterySaverExt 成功加载！
+  low_battery_message: 电量不足（{percent}%）！
+  battery_info: 当前服务器电量：{percent}%，供电状态：{status}
+  power_status:
+    charging: 充电中
+    battery: 耗电中
+  command:
+    not_player: 此命令仅适用于玩家（客户端）！
